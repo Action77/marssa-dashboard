@@ -1,6 +1,6 @@
-export async function GET() {
+export async function POST() {
   return Response.json({
     success: true,
-    serverTime: new Date().toISOString(),
+    message: "Export endpoint ready"
   });
 }
